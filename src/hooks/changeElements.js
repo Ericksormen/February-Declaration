@@ -10,14 +10,14 @@ export const useChangeElements = () => {
 
     const handleButtonNo = () => {
         setIndex(index + 1)
-        setImage('https://imgur.com/a/dHFGpsU')
+        setImage('https://tenor.com/es-US/view/wink-lightning-mcqueen-cars-smile-if-you-catch-my-drift-gif-26641275')
         setTextP(options.at(index))
         
         if(index === options.length - 1) setIndex(0)
     }
 
     const handleButtonYes = () => {
-        setImage("https://imgur.com/a/2SHXhh9")
+        setImage("https://tenor.com/es-US/view/wink-lightning-mcqueen-cars-smile-if-you-catch-my-drift-gif-26641275")
         setTextP('Gracias por aceptar, te amo mucho <3')
         confetti()
     }
